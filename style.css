@@ -1,0 +1,25 @@
+body { background-color: brown; }
+h1 {color: bisque;
+text-align: center;
+font-size: 50px;}
+
+.login {
+    width: 60%;
+    background-color: burlywood;
+    padding: 60px ;
+    margin: 8% 20% 4%;
+    border-radius: 4px;
+    font-size: larger;
+    box-shadow: #f5f5f5;
+    font-family: 'Times New Roman', Times, serif;}
+.marcaInput {
+    background-color:#E0951B;
+    color: #000;
+    border-radius: 25px;
+    padding: 2%;
+    text-decoration: none;
+    border: 1px solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center; 
+}
