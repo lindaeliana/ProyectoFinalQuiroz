@@ -18,7 +18,6 @@ consultaBtn.addEventListener("click", function () {
             let hasDiscount = localStorage.getItem(hasDiscountKey);
             let mensaje = "";
 
-            // Use forEach to iterate through the data array
             data.forEach(producto => {
                 const { marca, modelo, precio } = producto; // Destructuring
 
@@ -29,7 +28,7 @@ consultaBtn.addEventListener("click", function () {
                     `
                     Swal.fire('Usted tiene un descuento especial');
 
-                    // Apply discount if the user hasn't already received it
+                    // Aplica descuento si el usuario aún no lo recibió
                     if (hasDiscount !== "true") {
                         localStorage.setItem(hasDiscountKey, "true");
                         const descuento = 20;
@@ -39,7 +38,6 @@ consultaBtn.addEventListener("click", function () {
                 }
             });
 
-            // If no product matches the input brand name
             if (!mensaje) {
                 mensaje = "No disponible";
             }
