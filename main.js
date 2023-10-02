@@ -54,3 +54,4 @@ function calcularPrecioConDescuento(precio, descuento) {
     const precioConDescuento = precio - descuentoAplicado;
     return precioConDescuento;
 }
+
